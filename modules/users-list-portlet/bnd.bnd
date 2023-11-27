@@ -1,0 +1,4 @@
+Bundle-Name: users-list-portlet
+Bundle-SymbolicName: br.com.gx2.users.list
+Bundle-Version: 1.0.0
+Export-Package: br.com.gx2.users.list.constants
