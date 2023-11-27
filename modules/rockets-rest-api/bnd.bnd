@@ -1,0 +1,4 @@
+Bundle-Name: rockets-rest-api
+Bundle-SymbolicName: br.com.gx2.restapi
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration
