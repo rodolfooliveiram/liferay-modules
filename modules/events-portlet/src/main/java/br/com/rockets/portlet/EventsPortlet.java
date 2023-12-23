@@ -81,9 +81,9 @@ public class EventsPortlet extends MVCPortlet {
 			}
 			
 			
-			// O que eu estava tentando fazer era criar um List<Map<String, String>> onde as chaves seriam os fieldReference de cada campo da estrutura e o valor seria o valor de cada campo e já passar esse List consumir na view. Ao invés de passar essa variável ddmFormFieldValuesReferencesMapList, que é um ListList<Map<String, List<DDMFormFieldValue>>.
+			// O que eu estava tentando fazer era criar um List<Map<String, String>> onde as chaves seriam os fieldReference de cada campo da estrutura e o valor seria o valor de cada campo e já passar esse List para consumir na view. Ao invés de passar essa variável ddmFormFieldValuesReferencesMapList, que é um ListList<Map<String, List<DDMFormFieldValue>>.
 			
-			// Até consegui usar ddmFormFieldValuesReferencesMapList, mas o código fica tão fácil de ler e tive dificuldade pra conseguir pegar a URL do campo imagem da estrutura. Não consegui converter a string em JSON como fiz nos ADTs.
+			// Até consegui usar ddmFormFieldValuesReferencesMapList, mas o código não fica tão fácil de ler e tive dificuldade pra conseguir pegar a URL do campo imagem da estrutura. Não consegui converter a string em JSON como fiz nos ADTs.
 			
 			// Estava tentando pegar o locale pra usar dentro do getString() do for que vem em seguida
 			// Locale locale = ThemeDisplay.getLocale()
